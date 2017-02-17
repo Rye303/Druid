@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_horizontal">
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/Acc1"
+        android:padding="0dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/Acc1"
+        android:id="@+id/Head"
+        android:padding="0dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignBottom="@+id/Head"
+        android:layout_toRightOf="@+id/Head"
+        android:layout_toEndOf="@+id/Head"
+        android:id="@+id/Acc2"
+        android:padding="0dp"
+        android:scaleType="fitXY"/>
+
+</RelativeLayout>
